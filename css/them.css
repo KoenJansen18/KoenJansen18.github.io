@@ -1,0 +1,23 @@
+.dark-theme {
+    --bodybackground: rgb(41, 41, 41);
+    --aboutbackground: #222222e5;
+    --cardbackground: #1f1f1f;
+    --reviewbackground: #222222e5;
+    --contactbackground: #1f1f1f;
+    --calculatorgrid: #313131;
+    --calculatorkeys: rgb(41, 41, 41);;
+    --text: white;
+    --text2: #fcfc;
+}
+
+.light-theme {
+    --bodybackground: white;
+    --aboutbackground: rgb(226, 226, 226);
+    --cardbackground: rgb(221, 221, 221);
+    --reviewbackground: rgb(226, 226, 226);
+    --contactbackground: rgb(211, 211, 211);
+    --calculatorgrid: rgb(204, 204, 204);
+    --calculatorkeys: rgb(179, 179, 179);
+    --text: black;
+    --text2: black;
+}

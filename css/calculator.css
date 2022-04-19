@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 0px;
+    position: relative;
+    bottom: 800px;
+}
+
+section {
+    background: var(--cardbackground);
+    border-radius: 20px;
+    width: 360px;
+    overflow: hidden;
+}
+section .header {
+    display: flex;
+    position: relative;
+    color: var(--text);
+    margin-bottom: 5px;
+    padding: 20px 15px;
+}
+section .header h3 {
+    font-size: 20px;
+    margin-top: -7px;
+}
+section .header ul {
+    list-style: none;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    padding: 20px 15px;
+}
+section .header ul li {
+    display: inline;
+    font-size: 15px;
+}
+
+.calc {
+    height: 170px;
+}
+section [type="text"] {
+    background-color: transparent;
+    border:none;
+    outline: none;
+    width: 100%;
+    font-size: 22px;
+    margin-top: 80px;
+    text-align: right;
+    padding:0 15px;
+    color: var(--text);
+}
+section h1 {
+    text-align: right;
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding:0 15px;
+    color: var(--text);
+}
+section .key_btn {
+    background: var(--calculatorgrid);
+    height: auto;
+    padding: 20px 20px 50px;
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
+}
+section .key_btn input {
+    width: 45px;
+    height:45px;
+    margin: 14px 15px;
+    background: var(--calculatorkeys);
+    border: none;
+    outline: none;
+    color: var(--text);
+    border-radius: 10px;
+    font-size: 18px;
+}
+hr {
+    width: 150px;
+    background: rgb(68, 67, 67);
+    height: 3px;
+    margin: -30px auto 15px;
+    border: none;
+    outline: none;
+}
+#pink {
+    color: var(--text2);
+}
+#red {
+    color: #f9004d;
+}
