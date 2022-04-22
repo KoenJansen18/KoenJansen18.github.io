@@ -19,12 +19,12 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 5em);
     grid-template-rows: repeat(3, 5em);
-    background-color: #2f0151;
+    background-color: #f9004d;
     border-radius: .9em;
 }
 
 .field {
-    background-color: #6202a7;
+    background-color: #fcfc;
     margin: .2em;
     border-radius: .5em;
     text-align: center;
